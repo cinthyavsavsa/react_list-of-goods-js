@@ -42,7 +42,7 @@ export const App = () => {
   const isChanged = sortField !== '' || isReversed;
 
   return (
-    <div className="section constent">
+    <div className="section content">
       <div className="buttons">
         <button
           type="button"
@@ -67,7 +67,7 @@ export const App = () => {
         <button
           type="button"
           onClick={() => setIsReversed(prev => !prev)}
-          className={classNames('button', 'is-warnig', {
+          className={classNames('button', 'is-warning', {
             'is-light': !isReversed,
           })}
         >
